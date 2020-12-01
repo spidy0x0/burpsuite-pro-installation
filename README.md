@@ -18,11 +18,13 @@
 
   For Linux Only:
   
-  ```wget https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh```
+  ```wget https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh``` For downloading direct file.
   
   Run:
   
-  ```bash installer.sh```
+  ```chmod +x installer.sh``` It will give execute permission.
+  
+  ```./installer.sh``` To execute the file.
   
 You can run aswell as sudo.
 # Download
