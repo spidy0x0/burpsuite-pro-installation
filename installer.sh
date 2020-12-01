@@ -49,6 +49,7 @@ function main(){
 			echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command."
 			fix_errors
 		else
+			echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command."
 			echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" >> ~/.bashrc
 			fix_errors
 		fi
