@@ -39,16 +39,16 @@ function main(){
 	xterm -e java -jar burploader-old.jar &
 	echo -ne "${bl}${b}[${g}*${b}] ${w}Hit enter if you have activated the burpsuite correctly> "
 	read enter
-	ps aux | grep xterm | sed 's/   / /g' | cut -d\  -f2 | head -n2 | xargs sudo kill -9 &>/dev/null
+	ps aux | grep xterm | sed 's/   / /g' | cut -d\  -f2 | head -n2 | xargs kill -9 &>/dev/null
 	ls *.burp &>/dev/null
 	if [ $? -eq 0 ]; then
 		echo -ne "${bl}${b}[${g}*${b}] ${w}Finishing setup"; run
 		laste=$(cat ~/.bashrc | tail -1)
+		path=$(pwd)
 		if [[ "${laste}" == "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" ]]; then
 			echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command."
 			fix_errors
 		else
-			path=$(pwd)
 			echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" >> ~/.bashrc
 			fix_errors
 		fi
