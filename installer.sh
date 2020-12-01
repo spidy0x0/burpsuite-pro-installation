@@ -44,11 +44,12 @@ function main(){
 	if [ $? -eq 0 ]; then
 		echo -ne "${bl}${b}[${g}*${b}] ${w}Finishing setup"; run
 		laste=$(cat ~/.bashrc | tail -1)
-		if [[ "${laste}" == 'alias burpy="cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&"' ]]; then
+		if [[ "${laste}" == "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" ]]; then
 			echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command."
 			fix_errors
 		else
-			echo -e 'alias burpy="cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&"' >> ~/.bashrc
+			path=$(pwd)
+			echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" >> ~/.bashrc
 			fix_errors
 		fi
 	elif [ $? -eq 2 ]; then
