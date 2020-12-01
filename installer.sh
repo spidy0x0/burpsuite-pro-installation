@@ -39,7 +39,7 @@ function main(){
 	xterm -e java -jar burploader-old.jar &
 	echo -ne "${bl}${b}[${g}*${b}] ${w}Hit enter if you have activated the burpsuite correctly> "
 	read enter
-	ps aux | grep xterm | sed 's/  / /g' | cut -d\  -f2 | head -n2 | xargs sudo kill -9 &>/dev/null
+	ps aux | grep xterm | sed 's/   / /g' | cut -d\  -f2 | head -n2 | xargs sudo kill -9 &>/dev/null
 	ls *.burp &>/dev/null
 	if [ $? -eq 0 ]; then
 		echo -ne "${bl}${b}[${g}*${b}] ${w}Finishing setup"; run
