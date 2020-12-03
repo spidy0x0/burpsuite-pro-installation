@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.2
+# __version__    : v1.3
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
-# __burpsuite__  : v2020.11.2
+# __burpsuite__  : v2020.11.3
 #
 
 r="\e[31m"
@@ -35,7 +35,7 @@ function run(){
 
 function main(){
 	echo -e "${bl}${b}[${g}*${b}] ${w}I will start Burpsuite, all you have to do is activate it manually.\nAfter activation, you can go back here and i will make the rest."
-	xterm -e java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar &
+	xterm -e java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar &
 	xterm -e java -jar burploader-old.jar &
 	echo -ne "${bl}${b}[${g}*${b}] ${w}Hit enter if you have activated the burpsuite correctly> "
 	read enter
@@ -45,12 +45,12 @@ function main(){
 		echo -ne "${bl}${b}[${g}*${b}] ${w}Finishing setup"; run
 		laste=$(cat ~/.bashrc | tail -1)
 		path=$(pwd)
-		if [[ "${laste}" == "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" ]]; then
+		if [[ "${laste}" == "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar&'" ]]; then
 			echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command."
 			fix_errors
 		else
 			echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command."
-			echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.2.jar -noverify -jar burpsuite_pro_v2020.11.2.jar&'" >> ~/.bashrc
+			echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar&'" >> ~/.bashrc
 			fix_errors
 		fi
 	elif [ $? -eq 2 ]; then
@@ -61,11 +61,11 @@ function main(){
 
 function file_check(){
 	i=0
-	if [ -f BurpSuiteLoader_v2020.11.2.jar ]; then
-		echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}BurpSuiteLoader_v2020.11.jar"
+	if [ -f BurpSuiteLoader_v2020.11.3.jar ]; then
+		echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}BurpSuiteLoader_v2020.11.3.jar"
 		i=$(( $i + 1 ))
-	elif [ ! -f BurpSuiteLoader_v2020.11.2.jar ]; then
-		echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}BurpSuiteLoader_v2020.11.jar"
+	elif [ ! -f BurpSuiteLoader_v2020.11.3.jar ]; then
+		echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}BurpSuiteLoader_v2020.11.3.jar"
 		exit 1
 	fi
 	if [ -f burploader-old.jar ]; then
@@ -75,11 +75,11 @@ function file_check(){
 		echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burploader-old.jar"
 		exit 1
 	fi
-	if [ -f burpsuite_pro_v2020.11.2.jar ]; then
-		echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}burpsuite_pro_v2020.11.jar"
+	if [ -f burpsuite_pro_v2020.11.3.jar ]; then
+		echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}burpsuite_pro_v2020.11.3.jar"
 		i=$(( $i + 1 ))
-	elif [ ! -f burpsuite_pro_v2020.11.2.jar ]; then
-		echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burpsuite_pro_v2020.11.jar"
+	elif [ ! -f burpsuite_pro_v2020.11.3.jar ]; then
+		echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burpsuite_pro_v2020.11.3.jar"
 		exit 1
 	fi
 
