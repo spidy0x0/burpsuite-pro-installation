@@ -30,8 +30,9 @@ You can run aswell as sudo.
 # Download
   
   If you want to download the pro version, you can follow this link:
-  ### [DOWNLOAD](https://t.me/burp_chat/12670) ###
-
+  ### [DOWNLOAD TELEGRAM](https://t.me/burp_chat/14634) ###
+  
+  ### [DOWNLOAD GOOGLE DRIVE](https://drive.google.com/file/d/1ziIQckepiyG43gVxjfCKKeQD8AmYaQ-c/view?usp=sharing) ###
   PASSWORD IS : 311138
 
   Installation Video:
