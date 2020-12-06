@@ -6,6 +6,7 @@
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.11.3
 # __changelog__  : Changed Functions & Added xterm Package Check
+# 
 
 r="\e[31m"
 g="\e[32m"
@@ -19,6 +20,7 @@ rs="\e[0m"
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
 
+git config pull.rebase false
 
 
 banner(){
