@@ -2,9 +2,9 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub repo size" src="https://img.shields.io/badge/version-1.4-brightgreen">
 
-<h2 align=center>Burpsuite Pro Installation</h2>
+<h1 align=center>Burpsuite Pro Installation</h1>
 
-# Table of contents:
+<h2>Table Of Contents</h2>
 * [General Information](#general-info)
 * [Installation](#installation)
 * [Download](#download)
@@ -13,12 +13,12 @@
 * [Social Media](#social-media)
 * [Bug Report](#bug-report)
 
-# General Information
+<h2>General Information</h2>
   
   This is an script to automate the process of burpsuite pro installation.
   If you want to download it, join [telegram group](https://t.me/burp_chat/)
 
-# Installation
+<h2>Installation</h2>
 
   Please Make Sure You Are Using Bash You Can Get Your Shell By:
   ```echo $SHELL```
@@ -36,7 +36,8 @@
   ```./installer.sh``` To execute the file.
   
 You can run aswell as sudo.
-# Download
+
+<h2>Download</h2>
   
   If you want to download the pro version, you can follow this link:
   ### [DOWNLOAD TELEGRAM](https://t.me/burp_chat/14634) ###
@@ -46,14 +47,14 @@ You can run aswell as sudo.
 
   Installation Video:
   ### [VIDEO](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) ###
-  
-# Disclaimer
+
+<h2>Disclamer</h2>
 
   Use this tool for educational purposes only .:-) 🕵️‍♂️
   If you do any illegal attacks, i am not responsible for your tasks.
   Use this tool correctly, and do not re-upload it on your github repository without permissions.
   
-# Credits
+<h2>Credits</h2>
 
 _Channels :_ 
 
@@ -67,13 +68,13 @@ _Channels :_
 [BurpChat & Download](https://t.me/burp_chat/)
                
             
-# Social Media
+<h2>Social Media</h2>
 Telegram:
 * @mrblackx
 * @On1c0n3
 
 
 
-# Bug Report
+<h2>Bug Report</h2>
   If you found any bug or issue, pless go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
   You can also request an update.
