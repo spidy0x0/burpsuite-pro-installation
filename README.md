@@ -17,6 +17,8 @@
 
 <h1 align=center>Burpsuite Pro Installation</h1>
 
+<hr>
+
 <h2>Table Of Contents</h2>
 
 * [General Information](#general-info)
@@ -27,10 +29,19 @@
 * [Social Media](#social-media)
 * [Bug Report](#bug-report)
 
+<hr>
+
 <h2>General Information</h2>
   
   This is an script to automate the process of burpsuite pro installation.
-  If you want to download it, join [telegram group](https://t.me/burp_chat/)
+  
+  Our entire Burp-Suite team did their best to make this tutorial as user-friendly as possible.
+  
+  If there are any questions, at the end of "Credits" you will find our names for possible questions. 
+  
+  Have a nice day and happy bug hunting 💯
+  
+<hr>
 
 <h2>Installation</h2>
   BurpSuite Pro requires <p><a href="https://jdk.java.net/">OpenJDK</a></p> v14+ to run.
@@ -186,6 +197,8 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   I updated the commands & download just download the file from down below.
 
+<hr>
+
 <h2>Download & Stuff</h2>
   
   To download the BurpSuite Professional Version, we have added 2 Download Links:
@@ -197,11 +210,15 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
 
+<hr>
+
 <h2>Disclamer</h2>
 
   Use this tool for educational purposes only .🕵️‍♂️
   If you do any illegal attacks, i am not responsible for your tasks.
   Use this tool correctly, and do not re-upload it on your github repository without permissions.
+  
+<hr>
   
 <h2>Credits</h2>
   
@@ -213,20 +230,31 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   | ViperZCrew | [https://t.me/ViperZCrew](https://t.me/ViperZCrew) |
   | DeepWaterLeaks | [https://t.me/deepwaterleaks2](https://t.me/deepwaterleaks2) |
   | BurpSuite Chat | [https://t.me/burp_chat/](https://t.me/burp_chat/)
-              
+
+<hr>
             
 <h2>Social Media</h2>
  <img align="left" alt="telegram.org" width="22px" src="https://images.vexels.com/media/users/3/137414/isolated/preview/3f7486417ddd88060a1818d44b6f3728-telegram-icon-logo-by-vexels.png" /> Telegram:<br />
  
 * [@mrblackx](https://t.me/mrblackx)
 * [@On1c0n3](https://t.me/On1c0n3)
+* [@cicada007](https://t.me/cicada007)
+* [@null_pointer_dereference](https://t.me/null_pointer_dereference) 
 
 <img align="left" alt="github.com" width="22px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /> Github:<br />
  
-* rebl0x3r - [https://github.com/rebl0x3r](https://github.com/rebl0x3r)
+* Rebl0x3r - [https://github.com/rebl0x3r](https://github.com/rebl0x3r)
 * 0n1cOn3 - [https://github.com/0n1cOn3](https://github.com/0n1cOn3)
 * Dejavu666 - [https://github.com/dejavu666](https://github.com/dejavu666)
+* Spidyhackx - [https://github.com/spidyhackx](https://github.com/spidyhackx)
+
+<hr>
 
 <h2>Bug Report</h2>
-  If you found any bug or issue, pless go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
+  If you found any bug or issue, please go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
+  
   You can also request an update.
+  
+<hr>
+
+
