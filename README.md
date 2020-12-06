@@ -1,7 +1,7 @@
 <p align=center>
 <img alt="Burpi" src="https://i.ibb.co/ySK3pHr/external-content-duckduckgo-com-removebg-preview.png"><br>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
-<img alt="Tool version" src="https://img.shields.io/badge/version-1.4-brightgreen">
+<img alt="Tool version" src="https://img.shields.io/badge/version-1.5-brightgreen">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
@@ -23,7 +23,7 @@
 
 * [General Information](#general-info)
 * [Installation](#installation)
-* [Download](#download-&-stuff)
+* [Download & Stuff](#download-&-stuff)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
 * [Social Media](#social-media)
@@ -203,14 +203,23 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 <h2>Download & Stuff</h2>
   
   To download the BurpSuite Professional Version, we have added 2 Download Links:
-  | Platform | Link |
+  | Name/Platform | Link |
   | ------ | ------ |
   | Google Drive | [https://drive.google.com/file/d/1ziIQckepiyG43gVxjfCKKeQD8AmYaQ-c/view?usp=sharing](https://drive.google.com/file/d/1ziIQckepiyG43gVxjfCKKeQD8AmYaQ-c/view?usp=sharing) |
   | Telegram | [https://t.me/burp_chat/14634](https://t.me/burp_chat/14634) |
   | Password | 311138 |
   | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
-
+  | BurpSuite Course | [https://drive.google.com/drive/folders/1dgu4hq23Lk5Hxeku2AMQV8E57bJKbtIG](https://drive.google.com/drive/folders/1dgu4hq23Lk5Hxeku2AMQV8E57bJKbtIG) |
+  | BurpSuite Web Security | [https://portswigger.net/web-security](https://portswigger.net/web-security) |
+  | BurpSuite 30 Tips | [http://b1twis3.ca/burpsuite-30-pro-tips/](http://b1twis3.ca/burpsuite-30-pro-tips/) |
+  | BurpSuite Extension #1 | [https://github.com/PortSwigger/sri-check](https://github.com/PortSwigger/sri-check) |
+  | BurpSuite Extension #2 | [https://github.com/PortSwigger/similar-request-excluder](https://github.com/PortSwigger/similar-request-excluder) |
+  | BurpSuite Extension Developing Tutorial | [https://github.com/doyensec/burpdeveltraining](https://github.com/doyensec/burpdeveltraining) |
+  | BurpSuite Cracking Re-Captcha | [https://portswigger.net/research/cracking-recaptcha-turbo-intruder-style](https://portswigger.net/research/cracking-recaptcha-turbo-intruder-style) |
+  | BurpSuite 403 Bypass | [https://github.com/sting8k/BurpSuite_403Bypasser](https://github.com/sting8k/BurpSuite_403Bypasser) |
+  | BurpSuite Extensions | [https://github.com/wagiro/BurpBounty](https://github.com/wagiro/BurpBounty) |
+  
 <hr>
 
 <h2>Disclamer</h2>
