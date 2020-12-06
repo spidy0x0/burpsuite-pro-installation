@@ -1,7 +1,7 @@
 <p align=center>
-[Tool Version](https://img.shields.io/badge/version-1.4-blue)
-[GitHub repo size](https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation)
-</p>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
+
 <h2 align=center>Burpsuite Pro Installation</h2>
 
 # Table of contents:
