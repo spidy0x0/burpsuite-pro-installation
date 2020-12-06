@@ -16,6 +16,11 @@
 
 # Installation
 
+  Please Make Sure You Are Using Bash You Can Get Your Shell By:
+  ```echo $SHELL```
+  For Changing To Bash You Have To Type 
+  ```bash```
+
   For Linux Only:
   
   ```wget https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh``` For downloading direct file.
@@ -36,7 +41,7 @@ You can run aswell as sudo.
   PASSWORD IS : 311138
 
   Installation Video:
-  ### [VIDEO](https://youtu.be/JLQAkztsfcQ) ###
+  ### [VIDEO](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) ###
   
 # Disclaimer
 
