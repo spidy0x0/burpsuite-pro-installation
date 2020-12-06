@@ -23,7 +23,7 @@
 
 * [General Information](#general-info)
 * [Installation](#installation)
-* [Download & Stuff](#download-&-stuff)
+* [Download & Stuff](#download--stuff)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
 * [Social Media](#social-media)
@@ -222,7 +222,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
 <hr>
 
-<h2>Disclamer</h2>
+<h2>Disclaimer</h2>
 
   Use this tool for educational purposes only .🕵️‍♂️
   If you do any illegal attacks, i am not responsible for your tasks.
@@ -269,3 +269,5 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 <hr>
 
 
+
+[Site Up](#table-of-contents)
