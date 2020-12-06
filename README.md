@@ -3,8 +3,10 @@
 <img alt="Tool version" src="https://img.shields.io/badge/version-1.4-brightgreen">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
-<img alt="Burpsuite" src="kali-burpsuite.ico" width=40 height=30>
+<img alt="Burpsuite" src="kali-burpsuite.ico" width=15 height=15>
 <img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103"
+
+
 <h1 align=center>Burpsuite Pro Installation</h1>
 
 <h2>Table Of Contents</h2>
