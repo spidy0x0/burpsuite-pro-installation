@@ -13,7 +13,7 @@
 <img alt="Status" src="https://img.shields.io/badge/Cracking%20Status-Cracked-success">
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <a href="https://t.me//viperzcrew"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="ViperZCrew Channel"></a>
-<img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif"
+<img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif" width="100px">
 </p>
 
 <h1 align=center>Burpsuite Pro Installation</h1>
