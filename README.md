@@ -21,7 +21,7 @@
 
 * [General Information](#general-info)
 * [Installation](#installation)
-* [Download](#download)
+* [Download](#download-&-stuff)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
 * [Social Media](#social-media)
@@ -33,7 +33,9 @@
   If you want to download it, join [telegram group](https://t.me/burp_chat/)
 
 <h2>Installation</h2>
-  BurpSuite Pro requires [OpenJDK](https://jdk.java.net/) v14 to run.
+  BurpSuite Pro requires <p><a href="https://jdk.java.net/">OpenJDK</a></p> v14+ to run.
+  
+  <h3>Linux</h3>
   
   Please Make Sure You Are Using Bash You Can Get Your Shell By:
   
@@ -52,7 +54,7 @@
   
   $ ./installer 
   ```
-    
+  
   Curl works for windows & linux and should be pre-installed.
   
   Make sure you are into the Burp Suite folder, otherwise you will get an error:
@@ -84,7 +86,79 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 [✗] Not found BurpSuiteLoader_v2020.11.3.jar
   ```
   
+<h3>Windows</h3>
+  For window, we need openjdk aswell you can donwload it from here:
+  * [Java JDK (13.0.2)](https://www.filehorse.com/download-java-development-kit-64/46499/download/)
   
+  <img alt="1. Step" src="https://img.shields.io/badge/Step-1-blueviolet"/> Download JavaJDK and install jdk-13.0.2_windows-x64_bin.exe <br />
+  
+  <img alt="2. Step" src="https://img.shields.io/badge/Step-2-blueviolet"/> Search <code>environment<code> in the Windows search bar. You will see a match for <code>Edit the system environment variables</code>. Open it and then click <code>Environment Variables</code> button in the bottom.<br />
+  
+  <img alt="3. Step" src="https://img.shields.io/badge/Step-3-blueviolet"/> Under the System variables tab, click <code>New</code> and add the following variables:
+  
+<h4>Variable 1</h4>
+  
+  | Variable | Name |
+   | ------ | ------ |
+   | Name | CLASSPATH | 
+   | Value | C:\Program Files\Java\jdk-13.0.2\lib\*.jar
+  
+  Click <code>OK</code>. Then click <code>New</code> again and add another variable:
+
+<h4>Variable</h4>
+
+  | Variable | Name |
+   | ------ | ------ |
+   | Name | JAVA_HOME | 
+   | Value | C:\Program Files\Java\jdk-13.0.2 |
+
+  Finally, double click the <code>Path</code> variable and click <code>New</code>. Add the following path:
+  <code>C:\Program Files\Java\jdk-13.0.2\bin</code>
+  
+  Click OK and close Variables Window.
+  <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/> Now extract the downlaoded <code>BurpSuite_Pro_2020.11.3.zip</code> file.
+   Use the password: <code>311138</code> if prompted. You will see three <code>.jar</code> files and one <code>.txt</code> file inside.
+   
+   In the same folder:
+   
+   Press and hold <code>Shift</code> key and <code>right click</code> on the screen.
+   
+   Click open <code>Command Prompt</code> or <code>Windows Powershell>/code> window here.
+    
+   Paste and run the following command:
+  
+   ```java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar```
+
+   Follow the instructions to install Burp Suite.
+   When you reach the License activation page, open a new <code>Command Prompt</code> window again in the same folder and run the following command:
+   
+   ```java -jar burploader-old.jar```
+
+   Copy the text in License box and paste it in your installation window and hit Next.
+   
+   Select Manual Activation, copy the Activation Request key and paste it in the above shown window to get the Activation Response key.
+   
+   Paste the Response key in the installation window and you are done.
+
+  <img alt="5. Step" src="https://img.shields.io/badge/Step-5-blueviolet"/> How to open the installed Burp Suite Pro?
+  
+  Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
+  
+  ```java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar```
+
+   Go to <code>File > Save As...</code> and open the folder you extracted earlier.
+   
+   Save the file there as: <code>BurpLoader.bat</code>.
+   
+   Remember to select <code>All Files</code> in the <code>Save as type</code> option.
+
+  <hr><br>
+  Now whenever you want to open Burp Suite, just double click on your BurpLoader.bat file.
+
+  Source : [https://techaware.netlify.app/posts/burp-suite-pro/](https://techaware.netlify.app/posts/burp-suite-pro/)
+  
+  I updated the commands & download just download the file from down below.
+
 <h2>Download & Stuff</h2>
   
   To download the BurpSuite Professional Version, we have added 2 Download Links:
