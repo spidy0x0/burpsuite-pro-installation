@@ -44,7 +44,8 @@
 <hr>
 
 <h2>Installation</h2>
-  BurpSuite Pro requires <p><a href="https://jdk.java.net/">OpenJDK</a></p> v14+ to run.
+
+  BurpSuite Pro requires <a href="https://jdk.java.net/">OpenJDK</a> v14+ to run.
   
   <h3>Linux</h3>
   
