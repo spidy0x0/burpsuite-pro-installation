@@ -116,7 +116,8 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   Finally, double click the <code>Path</code> variable and click <code>New</code>. Add the following path:
   <code>C:\Program Files\Java\jdk-13.0.2\bin</code>
   
-  Click OK and close Variables Window.
+  Click OK and close Variables Window.<br />
+  
   <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/> Now extract the downlaoded <code>BurpSuite_Pro_2020.11.3.zip</code> file.
    Use the password: <code>311138</code> if prompted. You will see three <code>.jar</code> files and one <code>.txt</code> file inside.
    
@@ -128,12 +129,12 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
     
    Paste and run the following command:
   
-   ```java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar```
+   <code>java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar</code>
 
    Follow the instructions to install Burp Suite.
    When you reach the License activation page, open a new <code>Command Prompt</code> window again in the same folder and run the following command:
    
-   ```java -jar burploader-old.jar```
+   <code>java -jar burploader-old.jar</code>
 
    Copy the text in License box and paste it in your installation window and hit Next.
    
@@ -145,7 +146,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
   
-  ```java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar```
+  <code>java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar</code>
 
    Go to <code>File > Save As...</code> and open the folder you extracted earlier.
    
