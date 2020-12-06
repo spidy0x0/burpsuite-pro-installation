@@ -44,7 +44,7 @@ update(){
 		echo -e "${g}[i] ${w}Already on the latest version :-)"
 	elif [[ "$up" == "Already up-to-date." ]]; then
 		echo -e "${g}[i] ${w}Already on the latest version :-)"
-	elif [[ "$up" == "Bereits Aktuell." ]]; then
+	elif [[ "$up" == "Bereits aktuell." ]]; then
 		echo -e "${g}[i] ${w}Already on the latest version :-)"
 	else
 		echo -e "${r}[!] ${w}Outdated, updating wait...."
