@@ -7,9 +7,9 @@
 <img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png">
 <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
 <img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/Zc_zcqK9Cl0?style=social">
-
 [![Support chat](https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg)](https://t.me/burp_chat/)
-
+  
+</p>
 <h1 align=center>Burpsuite Pro Installation</h1>
 
 <h2>Table Of Contents</h2>
