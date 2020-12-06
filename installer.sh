@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.4
+# __version__    : v1.5
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.11.3
-# __changelog__  : Changed Functions & Added xterm Package Check
+# __changelog__  : Added Auto Pull-Update (GitHub)
 # 
 
 r="\e[31m"
