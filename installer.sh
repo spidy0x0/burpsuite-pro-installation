@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.3
+# __version__    : v1.4
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.11.3
-#
+# __changelog__  : Changed Functions & Added xterm Package Check
 
 r="\e[31m"
 g="\e[32m"
@@ -20,20 +20,21 @@ path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
 
 
-function banner(){
+
+banner(){
 	figlet -f slant "BurpSuite";figlet -f slant "Installer"
 	echo -e "\t\t\t\t    ${r}@mrblackx\n\n\n\n"
 }
 
 
-function run(){
+run(){
 	for i in {1..3}
 	do
 		echo -ne "${l:0:$i}";sleep 0.1
 	done
 }
 
-function main(){
+main(){
 	echo -e "${bl}${b}[${g}*${b}] ${w}I will start Burpsuite, all you have to do is activate it manually.\nAfter activation, you can go back here and i will make the rest."
 	xterm -e java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar &
 	xterm -e java -jar burploader-old.jar &
@@ -59,7 +60,7 @@ function main(){
 	fi
 }
 
-function file_check(){
+file_check(){
 	i=0
 	if [ -f BurpSuiteLoader_v2020.11.3.jar ]; then
 		echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}BurpSuiteLoader_v2020.11.3.jar"
@@ -91,7 +92,7 @@ function file_check(){
 	fi
 }
 
-function getinfo(){
+getinfo(){
 	l="."
 	
 	cmd=$(apt list --installed ${item} | grep -o "installed\|installed" &>/dev/null)
@@ -109,7 +110,7 @@ function getinfo(){
 }
 
 
-function fix_errors(){
+fix_errors(){
 	echo -e "\n${bl}${b}[${g}*${b}] ${w}Fixing common errors, please give root password if required."
 	sudo sysctl -w kernel.unprivileged_userns_clone=1
 	x=$(java --version | head -1 | cut -d\  -f2 | cut -d"." -f1)
@@ -121,20 +122,36 @@ function fix_errors(){
 	fi
 }
 
-function check(){
+check(){
 	clear;banner
 	if [[ "${EUID}" == 0 ]]; then
 		echo -e "${bl}${b}[${r}!${b}] ${w}Warning!\n\nYou are running this script as ${r}root ${w}user.\nNormally this has ${r}no influence${w}, but please be careful and enter the super-user password manually."; sleep 0.5
 		echo -ne "${bl}${b}[${y}?${b}] ${w}Do you want to start anyway?[${g}Y${w}/${r}N${w}]:${b} "
 		read t
 		if [[ "${t}" == "y" || "${t}" == "Y" ]]; then
-			getinfo
+			xterm=$(which xterm)
+			if [[ "${xterm}" == "" ]]; then
+				echo -e "${bl}${b}[${r}!${b}] ${g}xterm ${w}is not installed yet, let me install.${y}"
+				sudo apt install xterm -y
+				getinfo
+			elif [[ "${xterm}" == "/usr/bin/xterm" ]]; then
+				echo -e "${bl}${b}[${g}*${b}] ${g}xterm ${w}found, continue";run
+				getinfo
+			fi
 		elif [[ "${t}" == "n" || "${t}" == "N" ]]; then
 			exit 1
 		fi
 	elif [[ "${ueuid}" == 1000 ]]; then
 		echo -e "${bl}${b}[${g}*${b}] ${w}Well you are running the script as common user, please wait."; sleep 0.5
-		getinfo
+		xterm=$(which xterm)
+			if [[ "${xterm}" == "" ]]; then
+				echo -e "${bl}${b}[${r}!${b}] ${g}xterm ${w}is not installed yet, let me install.${y}"
+				sudo apt install xterm -y
+				getinfo
+			elif [[ "${xterm}" == "/usr/bin/xterm" ]]; then
+				echo -e "${bl}${b}[${g}*${b}] ${g}xterm ${w}found, continue";run
+				getinfo
+			fi
 	fi
 
 }
