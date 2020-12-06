@@ -1,6 +1,6 @@
 <p align=center>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
+<img alt="GitHub repo size" src="https://img.shields.io/badge/version-1.4-brightgreen">
 
 <h2 align=center>Burpsuite Pro Installation</h2>
 
