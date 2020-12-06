@@ -20,9 +20,6 @@ rs="\e[0m"
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
 
-git config pull.rebase false
-
-
 banner(){
 	figlet -f slant "BurpSuite";figlet -f slant "Installer"
 	echo -e "\t\t\t\t    ${r}@mrblackx\n\n\n\n"
@@ -34,6 +31,27 @@ run(){
 	do
 		echo -ne "${l:0:$i}";sleep 0.1
 	done
+}
+
+update(){
+	git config pull.rebase false
+	git stash &>/dev/null
+
+	up=$(git pull 2>/dev/null)
+	echo -e "${g}[*] ${w}Checking if you up-to-date";run
+	sleep 0.5
+	if [[ "$up" == "Already up to date." ]]; then
+		echo -e "${g}[i] ${w}Already on the latest version :-)"
+	elif [[ "$up" == "Already up-to-date." ]]; then
+		echo -e "${g}[i] ${w}Already on the latest version :-)"
+	elif [[ "$up" == "Bereits Aktuell." ]]; then
+		echo -e "${g}[i] ${w}Already on the latest version :-)"
+	else
+		echo -e "${r}[!] ${w}Outdated, updating wait...."
+		git pull -q &>/dev/null
+		echo -e "${g}[*] ${w}Updated to the newest version :-)"
+	fi
+
 }
 
 main(){
@@ -127,6 +145,7 @@ fix_errors(){
 check(){
 	clear;banner
 	if [[ "${EUID}" == 0 ]]; then
+		update
 		echo -e "${bl}${b}[${r}!${b}] ${w}Warning!\n\nYou are running this script as ${r}root ${w}user.\nNormally this has ${r}no influence${w}, but please be careful and enter the super-user password manually."; sleep 0.5
 		echo -ne "${bl}${b}[${y}?${b}] ${w}Do you want to start anyway?[${g}Y${w}/${r}N${w}]:${b} "
 		read t
@@ -144,6 +163,7 @@ check(){
 			exit 1
 		fi
 	elif [[ "${ueuid}" == 1000 ]]; then
+		update
 		echo -e "${bl}${b}[${g}*${b}] ${w}Well you are running the script as common user, please wait."; sleep 0.5
 		xterm=$(which xterm)
 			if [[ "${xterm}" == "" ]]; then
