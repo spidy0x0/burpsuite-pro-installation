@@ -4,7 +4,7 @@
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
-<img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103"
+<img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png">
 
 
 <h1 align=center>Burpsuite Pro Installation</h1>
