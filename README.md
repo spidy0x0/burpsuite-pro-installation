@@ -94,7 +94,6 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   | Telegram | [https://t.me/burp_chat/14634](https://t.me/burp_chat/14634) |
   | Password | 311138 |
   | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
-  Installation Video:
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
 
 <h2>Disclamer</h2>
@@ -121,7 +120,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 * [@mrblackx](https://t.me/mrblackx)
 * [@On1c0n3](https://t.me/On1c0n3)
 
-  <img align="left" alt="github.com" width="22px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /> Github:<br />
+<img align="left" alt="github.com" width="22px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /> Github:<br />
  
 * rebl0x3r - [https://github.com/rebl0x3r](https://github.com/rebl0x3r)
 * 0n1cOn3 - [https://github.com/0n1cOn3](https://github.com/0n1cOn3)
