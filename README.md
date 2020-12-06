@@ -252,6 +252,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 <hr>
 
 <h2>Bug Report</h2>
+
   If you found any bug or issue, please go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
   
   You can also request an update.
