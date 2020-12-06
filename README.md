@@ -56,7 +56,7 @@
   ```
   
   Curl works for windows & linux and should be pre-installed.
-  
+    
   Make sure you are into the Burp Suite folder, otherwise you will get an error:
   ```
   $ ./installer.sh
@@ -152,6 +152,23 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
   <img alt="5. Step" src="https://img.shields.io/badge/Step-5-blueviolet"/>  **How to open the installed Burp Suite Pro?**
   
+  There are 2 methods to make burpsuite pro executeable easily. Before you start anything, just go into the burpsuite folder(windows)
+  
+  <img alt="method-2" src="https://img.shields.io/badge/Method-2-success"> Easy Method : <code>curl</code>
+  
+   Press and hold <code>Shift</code> key and <code>right click</code> on the screen.
+   
+   Click open <code>Command Prompt</code> or <code>Windows Powershell</code> window here.
+    
+   Paste and run the following command:
+   <code> curl -LO "https://raw.githubusercontent.com/Dejavu666/burpsuite-pro-installation-win10/main/burpsuite.bat" </code>
+  
+   You should have a new file called <code>burpsuite.bat</code>, execute it and burpsuite will start immediately.
+  
+  Thanks to @dejavu666
+  
+  <img alt="method-2" src="https://img.shields.io/badge/Method-2-success"> Difficult Method : Making Own <code>burpsuite.bat</code> 
+  
   Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
   
   <code>java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar</code>
@@ -208,6 +225,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
  
 * rebl0x3r - [https://github.com/rebl0x3r](https://github.com/rebl0x3r)
 * 0n1cOn3 - [https://github.com/0n1cOn3](https://github.com/0n1cOn3)
+* Dejavu666 - [https://github.com/dejavu666](https://github.com/dejavu666)
 
 <h2>Bug Report</h2>
   If you found any bug or issue, pless go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
