@@ -154,7 +154,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   There are 2 methods to make burpsuite pro executeable easily. Before you start anything, just go into the burpsuite folder(windows)
   
-  <img alt="method-2" src="https://img.shields.io/badge/Method-2-success"> Easy Method : <code>curl</code>
+  <img alt="method-2" src="https://img.shields.io/badge/Method-1-success"> Easy Method : <code>curl</code>
   
    Press and hold <code>Shift</code> key and <code>right click</code> on the screen.
    
