@@ -125,7 +125,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
    
    Press and hold <code>Shift</code> key and <code>right click</code> on the screen.
    
-   Click open <code>Command Prompt</code> or <code>Windows Powershell>/code> window here.
+   Click open <code>Command Prompt</code> or <code>Windows Powershell</code> window here.
     
    Paste and run the following command:
   
