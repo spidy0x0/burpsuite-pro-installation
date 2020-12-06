@@ -91,11 +91,11 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   * [Java JDK (13.0.2)](https://www.filehorse.com/download-java-development-kit-64/46499/download/)
   
-  <img alt="1. Step" src="https://img.shields.io/badge/Step-1-blueviolet"/> Download JavaJDK and install jdk-13.0.2_windows-x64_bin.exe <br />
+  <img alt="1. Step" src="https://img.shields.io/badge/Step-1-blueviolet"/> **Download JavaJDK and install jdk-13.0.2_windows-x64_bin.exe** <br />
   
-  <img alt="2. Step" src="https://img.shields.io/badge/Step-2-blueviolet"/> Search <code>environment</code> in the Windows search bar. You will see a match for <code>Edit the system environment variables</code>. Open it and then click <code>Environment Variables</code> button in the bottom.<br />
+  <img alt="2. Step" src="https://img.shields.io/badge/Step-2-blueviolet"/> **Search <code>environment</code> in the Windows search bar. You will see a match for <code>Edit the system environment variables</code>. Open it and then click <code>Environment Variables</code> button in the bottom.<br />**
   
-  <img alt="3. Step" src="https://img.shields.io/badge/Step-3-blueviolet"/> Under the System variables tab, click <code>New</code> and add the following variables:
+  <img alt="3. Step" src="https://img.shields.io/badge/Step-3-blueviolet"/> **Under the System variables tab, click <code>New</code> and add the following variables:**
   
 <h4>Variable 1</h4>
   
@@ -118,7 +118,8 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   Click OK and close Variables Window.<br />
   
-  <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/> Now extract the downlaoded <code>BurpSuite_Pro_2020.11.3.zip</code> file.
+  <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/> **Now extract the downlaoded <code>BurpSuite_Pro_2020.11.3.zip</code> file.** <br />
+  
    Use the password: <code>311138</code> if prompted. You will see three <code>.jar</code> files and one <code>.txt</code> file inside.
    
    In the same folder:
@@ -140,9 +141,9 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
    
    Select Manual Activation, copy the Activation Request key and paste it in the above shown window to get the Activation Response key.
    
-   Paste the Response key in the installation window and you are done.
+   Paste the Response key in the installation window and you are done.<br />
 
-  <img alt="5. Step" src="https://img.shields.io/badge/Step-5-blueviolet"/> How to open the installed Burp Suite Pro?
+  <img alt="5. Step" src="https://img.shields.io/badge/Step-5-blueviolet"/> **How to open the installed Burp Suite Pro?**
   
   Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
   
