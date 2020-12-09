@@ -48,7 +48,8 @@
   
   <h3>Linux</h3>
   
-  Please Make Sure You Are Using Bash You Can Get Your Shell By:
+  We've added Z-Shell and BASH support.
+  Either use bash or zsh, you can get your shell by:
   
   ```
   $ echo $SHELL
@@ -58,6 +59,13 @@
   
   $ echo $SHELL
   /usr/bin/bash
+  
+  $ zsh
+  
+  $ echo $SHELL
+  /usr/bin/zsh
+  
+  $ exit # for quitting if you want back to the old shell session
 
   $ curl https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh
 
