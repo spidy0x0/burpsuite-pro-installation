@@ -67,7 +67,7 @@
   
   $ exit # for quitting if you want back to the old shell session
 
-  $ curl https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh
+  $ curl -LO https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh
 
   $ chmod +x installer.sh
   
