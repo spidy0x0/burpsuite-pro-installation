@@ -1,14 +1,14 @@
 <p align=center>
 <img alt="Burpi" src="https://i.ibb.co/ySK3pHr/external-content-duckduckgo-com-removebg-preview.png"><br>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
-<img alt="Tool version" src="https://img.shields.io/badge/version-1.7-brightgreen">
+<img alt="Tool version" src="https://img.shields.io/badge/version-1.8-brightgreen">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
 <img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png">
 <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
 <a href="https://www.youtube.com/watch?v=Zc_zcqK9Cl0&feature=youtu.be"><img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/Zc_zcqK9Cl0?style=social"></a><br>
-<img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.11.3-important">
+<img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.12-important">
 <img alt="Status" src="https://img.shields.io/badge/Cracking%20Status-Cracked-success">
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <a href="https://t.me//viperzcrew"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="ViperZCrew Channel"></a>
@@ -143,7 +143,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   Click OK and close Variables Window.<br />
   
   
-  <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/>  **Now extract the downloaded** <code>BurpSuite_Pro_2020.11.3.zip</code> **file.** <br />
+  <img alt="4. Step" src="https://img.shields.io/badge/Step-4-blueviolet"/>  **Now extract the downloaded** <code>BurpSuite_Pro_2020.12.zip</code> **file.** <br />
   
    Use the password: <code>311138</code> if prompted. You will see three <code>.jar</code> files and one <code>.txt</code> file inside.
    
@@ -155,7 +155,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
     
    Paste and run the following command:
   
-   <code>java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar</code>
+   <code>java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar</code>
 
    Follow the instructions to install Burp Suite.
    When you reach the License activation page, open a new <code>Command Prompt</code> window again in the same folder and run the following command:
@@ -190,7 +190,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
   
-  <code>java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar</code>
+  <code>java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar</code>
 
    Go to <code>File > Save As...</code> and open the folder you extracted earlier.
    
@@ -212,8 +212,8 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   To download the BurpSuite Professional Version, we have added 2 Download Links:
   | Name/Platform | Link |
   | ------ | ------ |
-  | Google Drive | [https://drive.google.com/file/d/1ziIQckepiyG43gVxjfCKKeQD8AmYaQ-c/view?usp=sharing](https://drive.google.com/file/d/1ziIQckepiyG43gVxjfCKKeQD8AmYaQ-c/view?usp=sharing) |
-  | Telegram | [https://t.me/burp_chat/14634](https://t.me/burp_chat/14634) |
+  | Google Drive | [https://drive.google.com/file/d/1QcBDTHEakjBPH1A_8AdPPmCx91b7DaQV/view?usp=sharing](https://drive.google.com/file/d/1QcBDTHEakjBPH1A_8AdPPmCx91b7DaQV/view?usp=sharing) |
+  | Telegram | [https://t.me/burp_chat/17454](https://t.me/burp_chat/17454) |
   | Password | 311138 |
   | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
