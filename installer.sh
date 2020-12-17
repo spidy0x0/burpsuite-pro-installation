@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.8
+# __version__    : v1.9
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
-# __burpsuite__  : v2020.12
-# __changelog__  : Added v2020.12, Removed Root Support, Updated Download 
+# __burpsuite__  : v2020.12.1
+# __changelog__  : Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple 
 # 
 
 r="\e[31m"
@@ -45,7 +45,7 @@ update(){
 
 main(){
 	echo -e "${bl}${b}[${g}*${b}] ${w}I will start Burpsuite, all you have to do is activate it manually.\nAfter activation, you can go back here and i will make the rest.${rs}"
-	xterm -display ${display_} -e java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar &
+	xterm -display ${display_} -e java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar &
 	xterm -display ${display_} -e java -jar burploader-old.jar &
 	echo -ne "${bl}${b}[${g}*${b}] ${w}Hit enter if you have activated the burpsuite correctly> ${rs}"
 	read enter
@@ -59,8 +59,8 @@ main(){
 		laste=$(cat ~/.bashrc | tail -1 | awk '{print $2}' 2>/dev/null)
 		laste_=$(cat ~/.zshrc | tail -1 | awk '{print $2}' 2>/dev/null)
 		path=$(pwd)
-		if [[ "${laste}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar&'" >> ~/.bashrc; fix_errors; fi
-		if [[ "${laste_}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar&'" >> ~/.zshrc; fix_errors; fi
+		if [[ "${laste}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.bashrc; fix_errors; fi
+		if [[ "${laste_}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.zshrc; fix_errors; fi
 	#elif [ $? -eq 2 ]; then
 	else
 		echo -e "${bl}${b}[${r}!${b}] ${w}You didn't followed the instructions, can't find burp project file!${rs}"; exit 1
@@ -70,9 +70,9 @@ main(){
 
 file_check(){
 	i=0
-	if [ -f BurpSuiteLoader_v2020.12.jar ]; then echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}BurpSuiteLoader_v2020.12.jar${rs}"; i=$(( $i + 1 )); elif [ ! -f BurpSuiteLoader_v2020.12.jar ]; then echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}BurpSuiteLoader_v2020.12.jar${rs}"; exit 1; fi 
+	if [ -f BurpSuiteLoader_v2020.12.1.jar ]; then echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}BurpSuiteLoader_v2020.12.1.jar${rs}"; i=$(( $i + 1 )); elif [ ! -f BurpSuiteLoader_v2020.12.1.jar ]; then echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}BurpSuiteLoader_v2020.12.1.jar${rs}"; exit 1; fi 
 	if [ -f burploader-old.jar ]; then echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}burploader-old.jar${rs}"; i=$(( $i + 1 )); elif [ ! -f burploader-old.jar ]; then echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burploader-old.jar${rs}"; exit 1; fi
-	if [ -f burpsuite_pro_v2020.12.jar ]; then echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}burpsuite_pro_v2020.12.jar${rs}"; i=$(( $i + 1 )); elif [ ! -f burpsuite_pro_v2020.12.jar ]; then echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burpsuite_pro_v2020.12.jar${rs}"; exit 1; fi
+	if [ -f burpsuite_pro_v2020.12.1.jar ]; then echo -e "${bl}${b}[${g}✓${b}] ${w}Found ${c}burpsuite_pro_v2020.12.1.jar${rs}"; i=$(( $i + 1 )); elif [ ! -f burpsuite_pro_v2020.12.1.jar ]; then echo -e "${bl}${b}[${r}✗${b}] ${w}Not found ${c}burpsuite_pro_v2020.12.1.jar${rs}"; exit 1; fi
 	if [ "${i}" -eq 3 ]; then main; else echo -e "${bl}${b}[${r}✗${b}] ${w}Sorry, some files are missing and i can't continue!${rs}"; exit 1; fi
 }
 
