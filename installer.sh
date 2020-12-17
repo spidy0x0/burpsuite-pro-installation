@@ -64,7 +64,6 @@ main(){
 	#elif [ $? -eq 2 ]; then
 	else
 		echo -e "${bl}${b}[${r}!${b}] ${w}You didn't followed the instructions, can't find burp project file!${rs}"; exit 1
-	
 	fi
 }
 
@@ -88,7 +87,6 @@ getinfo(){
 fix_errors(){
 	echo -e "\n${bl}${b}[${g}*${b}] ${w}Fixing common errors, please give root password if required.${rs}"
 	sudo sysctl -w kernel.unprivileged_userns_clone=1
-	
 	x=$(java --version | head -1 | cut -d\  -f2 | cut -d"." -f1)
 	if [[ "${x}" == "14" ]]; then echo -e "${bl}${b}[${g}*${b}] ${w}Up-To-Date."; sleep 1; kill -9 $$; else echo -e "${bl}${b}[${g}*${b}] ${w}Re-Fixing";run; getinfo; fi
 }
