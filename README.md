@@ -284,4 +284,4 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 
 
-[Site Up](#table-of-contents)
+[Site Up](#burpsuite-pro-installation)
