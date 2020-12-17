@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.9
+# __version__    : v1.9.1
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.12.1
-# __changelog__  : Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple 
+# __changelog__  : Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple | Fixed Killing Part
 # 
 
 r="\e[31m"
@@ -49,10 +49,7 @@ main(){
 	xterm -display ${display_} -e java -jar burploader-old.jar &
 	echo -ne "${bl}${b}[${g}*${b}] ${w}Hit enter if you have activated the burpsuite correctly> ${rs}"
 	read enter
-#	ps aux | grep xterm | sed 's/   / /g' | cut -d\  -f2 | head -n2 | xargs kill -9 &>/dev/null
-#   if the command down below not work try the commented command as well
-#	ps aux | grep xterm | sed 's/    / /g' | cut -d\  -f2 | head -n2 | xargs kill -9 &>/dev/null
-	ps aux | grep xterm | sed 's/  / /g' | cut -d\  -f2 | head -n2 | xargs kill -9 &>/dev/null
+	ps aux | grep xterm | awk '{print $2}' | xargs kill -9 &>/dev/null
 	ls *.burp &>/dev/null
 	if [ $? -eq 0 ]; then
 		echo -ne "${bl}${b}[${g}*${b}] ${w}Finishing setup${rs}"; run
