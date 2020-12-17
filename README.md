@@ -1,14 +1,14 @@
 <p align=center>
 <img alt="Burpi" src="https://i.ibb.co/ySK3pHr/external-content-duckduckgo-com-removebg-preview.png"><br>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
-<img alt="Tool version" src="https://img.shields.io/badge/version-1.8-brightgreen">
+<img alt="Tool version" src="https://img.shields.io/badge/version-1.9-brightgreen">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
 <img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png">
 <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
 <a href="https://www.youtube.com/watch?v=Zc_zcqK9Cl0&feature=youtu.be"><img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/Zc_zcqK9Cl0?style=social"></a><br>
-<img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.12-important">
+<img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.12.1-important">
 <img alt="Status" src="https://img.shields.io/badge/Cracking%20Status-Cracked-success">
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <a href="https://t.me//viperzcrew"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="ViperZCrew Channel"></a>
@@ -22,6 +22,7 @@
 
 * [General Information](#general-info)
 * [Installation](#installation)
+* [Changelog](#changelog)
 * [Download & Stuff](#download--stuff)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
@@ -207,13 +208,19 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 <hr>
 
+<h2>Changelog</h2>
+  
+  Under Progress!
+
+<hr>
+
 <h2>Download & Stuff</h2>
   
   To download the BurpSuite Professional Version, we have added 2 Download Links:
   | Name/Platform | Link |
   | ------ | ------ |
-  | Google Drive | [https://drive.google.com/file/d/1QcBDTHEakjBPH1A_8AdPPmCx91b7DaQV/view?usp=sharing](https://drive.google.com/file/d/1QcBDTHEakjBPH1A_8AdPPmCx91b7DaQV/view?usp=sharing) |
-  | Telegram | [https://t.me/burp_chat/17454](https://t.me/burp_chat/17454) |
+  | Google Drive | [https://drive.google.com/file/d/1s-KcKRleHD4Zv6UbaUi_IGVUwYBDQcr_/view?usp=sharing](https://drive.google.com/file/d/1s-KcKRleHD4Zv6UbaUi_IGVUwYBDQcr_/view?usp=sharing) |
+  | Telegram | [https://t.me/burp_chat/17884](https://t.me/burp_chat/17884) |
   | Password | 311138 |
   | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
