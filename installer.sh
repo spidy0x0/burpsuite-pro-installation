@@ -19,7 +19,7 @@ bl="\e[1m"
 rs="\e[0m"
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
-display_=$(who | grep -o "(:.)" | tr -d "()")
+display_=$(who | grep -o "(:.)" | tr -d "()" | head -n1)
 display=$(echo $DISPLAY)
 
 if [[ "${display}" != ":0" ]]; then export DISPLAY=${display_}; fi
