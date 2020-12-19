@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.9.1
+# __version__    : v1.9.3
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.12.1
-# __changelog__  : Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple | Fixed Killing Part
+# __changelog__  : Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple, Fixed Killing Part, Output 
 # 
 
 r="\e[31m"
@@ -76,6 +76,7 @@ getinfo(){
 	l="."
 	packets=(openjdk-14-dbg openjdk-14-demo openjdk-14-doc openjdk-14-jdk openjdk-14-jdk-headless openjdk-14-jre openjdk-14-jre-zero openjdk-14-source)
 	for item in ${packets[@]}; do cmd=$(sudo apt list --installed ${item} | grep -o "installed" 2> /dev/null); if [[ "${cmd}" != "installed" ]]; then echo -ne "${bl}${b}[${r}!${b}] ${w}Package ${r}${item} ${w}not found.\nInstalling it for you${rs}"; run; echo -e "\n"; sudo apt install ${item} -y; else echo -ne "${bl}${b}[${g}i${b}] ${w}Package ${g}${item} ${w} found${rs}"; run; fi; done
+	echo -e "\n"
 	os=$(uname -s) # temp | no use
 	file_check
 }
