@@ -2,6 +2,7 @@
 <img alt="Burpi" src="https://i.ibb.co/ySK3pHr/external-content-duckduckgo-com-removebg-preview.png"><br>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
 <img alt="Tool version" src="https://img.shields.io/badge/version-1.9-brightgreen">
+<img alt="Errors" src="https://img.shields.io/badge/errors fixed-21-red">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
@@ -22,7 +23,6 @@
 
 * [General Information](#general-info)
 * [Installation](#installation)
-* [Changelog](#changelog)
 * [Download & Stuff](#download--stuff)
 * [Disclaimer](#disclaimer)
 * [Credits](#credits)
@@ -156,7 +156,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
     
    Paste and run the following command:
   
-   <code>java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar</code>
+   <code>java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar</code>
 
    Follow the instructions to install Burp Suite.
    When you reach the License activation page, open a new <code>Command Prompt</code> window again in the same folder and run the following command:
@@ -181,7 +181,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
    Click open <code>Command Prompt</code> or <code>Windows Powershell</code> window here.
     
    Paste and run the following command:
-   <code> curl -LO "https://raw.githubusercontent.com/Dejavu666/burpsuite-pro-installation-win10/main/burpsuite.bat" </code>
+   <code> curl -LO "https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/burpsuite.bat" </code>
   
    You should have a new file called <code>burpsuite.bat</code>, execute it and burpsuite will start immediately.
   
@@ -191,7 +191,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   Search <code>Notepad</code> in the Windows search bar, open it and paste the following command:
   
-  <code>java -javaagent:BurpSuiteLoader_v2020.12.jar -noverify -jar burpsuite_pro_v2020.12.jar</code>
+  <code>java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar</code>
 
    Go to <code>File > Save As...</code> and open the folder you extracted earlier.
    
@@ -205,12 +205,6 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   Source : [https://techaware.netlify.app/posts/burp-suite-pro/](https://techaware.netlify.app/posts/burp-suite-pro/)
   
   I updated the commands & download just download the file from down below.
-
-<hr>
-
-<h2>Changelog</h2>
-  
-  Under Progress!
 
 <hr>
 
