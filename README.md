@@ -216,7 +216,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   | Google Drive | [https://drive.google.com/file/d/1s-KcKRleHD4Zv6UbaUi_IGVUwYBDQcr_/view?usp=sharing](https://drive.google.com/file/d/1s-KcKRleHD4Zv6UbaUi_IGVUwYBDQcr_/view?usp=sharing) |
   | Telegram | [https://t.me/burp_chat/17884](https://t.me/burp_chat/17884) |
   | Password | 311138 |
-  | Video Tutorial | [https://www.youtube.com/watch?v=Zc_zcqK9Cl0](https://www.youtube.com/watch?v=Zc_zcqK9Cl0) |
+  | Video Tutorial | [https://www.youtube.com/watch?v=VmwtO3Yn2t4](https://www.youtube.com/watch?v=VmwtO3Yn2t4) |
   | For Problems | [https://t.me/burp_chat/](https://t.me/burp_chat/) |
   | BurpSuite Course | [https://drive.google.com/drive/folders/1dgu4hq23Lk5Hxeku2AMQV8E57bJKbtIG](https://drive.google.com/drive/folders/1dgu4hq23Lk5Hxeku2AMQV8E57bJKbtIG) |
   | BurpSuite Web Security | [https://portswigger.net/web-security](https://portswigger.net/web-security) |
