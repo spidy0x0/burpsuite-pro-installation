@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=burpsuite
+Comment=
+Exec=sh -c "/usr/bin/burpy"
+Icon=kali-burpsuite
+Path=
+Terminal=false
+StartupNotify=false
+Name[en_US.utf8]=BurpSuite Launcher
