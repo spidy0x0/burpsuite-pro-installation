@@ -1,12 +1,26 @@
 #!/bin/bash
 #
 # __author__     : @mrblackx
-# __version__    : v1.9.4
+# __version__    : v1.9.5
 # __description__: burpsuite pro setup
 # __support__    : https://t.me/burp_chat
 # __burpsuite__  : v2020.12.1
-# __changelog__  : Edited ZSH Burpy Commands | For Issues Open Issue!
+# __changelog__  : Full Changelog Available
 # 
+# 1.9.5 | Added Burpsuite Launcher
+# 1.9.4 | Edited ZSH Burpy Commands
+# 1.9.3 | Fixed Killing Part, Output 
+# 1.9.2 | Fixed Display Errors
+# 1.9   | Added v2020.12.1, Updated Download Link, Changed BurpSuite Color To Purple
+# 1.8   | Added v2020.12, Removed Root Support, Updated Download 
+# 1.7   | Made Script Bit Complexer To Read
+# 1.6   | Z-Shell Support, Kill Shell For Restart, Fixed Errors (2)
+# 1.5   | Fixed Permission Errors & Added Update Checker
+# 1.4   | Updated Strings & Fixed Errors
+# 1.3   | Made Command Easier
+# 1.2   | Fixed Errors 
+# 1.1   | Fixed Burp To Command
+# 1.0   | First Upload 
 
 r="\e[31m"
 g="\e[32m"
@@ -17,6 +31,9 @@ c="\e[36m"
 w="\e[37m"
 bl="\e[1m"
 rs="\e[0m"
+
+set -e 
+
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
 display_=$(who | grep -o "(:.)" | tr -d "()")
@@ -58,9 +75,31 @@ main(){
 		path=$(pwd)
 		
 		if [[ `echo $SHELL` == "/usr/bin/bash" ]]; then
-			if [[ "${last}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.bashrc; fix_errors; fi
+			if [[ "${last}" == "burpy='cd" ]]; then 
+				echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"
+				fix_errors
+				launcher
+			else 
+				echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"
+				echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.bashrc
+				fix_errors
+				launcher
+			fi
 		elif [[ `echo $SHELL` == "/usr/bin/zsh" ]]; then	
-			if [[ "${last_}" == "burpy='cd" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"; fix_errors; elif [[ "${last_}" == "" ]]; then echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.zshrc; fix_errors; else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"; echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.zshrc; fix_errors; fi
+			if [[ "${last_}" == "burpy='cd" ]]; then
+				echo -e "\n${bl}${b}[${g}*${b}] ${w}Already setuped as ${g}burpy ${w}command.${rs}"
+				fix_errors
+				launcher
+			elif [[ "${last_}" == "" ]]; then
+				echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"
+				echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.zshrc
+				fix_errors
+				launcher
+			else echo -e "\n${bl}${b}[${g}*${b}] ${w}Adding ${g}burpy ${w}command.${rs}"
+				echo -e "alias burpy='cd ${path}; java -javaagent:BurpSuiteLoader_v2020.12.1.jar -noverify -jar burpsuite_pro_v2020.12.1.jar&'" >> ~/.zshrc
+				fix_errors
+				launcher
+			fi
 		fi
 	else
 		echo -e "${bl}${b}[${r}!${b}] ${w}You didn't followed the instructions, can't find burp project file!${rs}"; exit 1
@@ -105,6 +144,13 @@ check(){
 	fi
 }
 
-
+launcher(){
+	echo -e "\n${bl}${b}[${r}!${b}] ${w}Adding a launcher to your desktop, please wait."
+	cp -R burpsuite.desktop ~/Desktop
+	chmod 755 ~/Desktop/burpsuite.desktop burpy
+	path=$(pwd)
+	sed -i "s@path@${path}@g" burpy
+	sudo -R burpy /usr/bin/burpy
+}
 
 check
