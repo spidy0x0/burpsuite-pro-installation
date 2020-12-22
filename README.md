@@ -11,12 +11,14 @@
 <img src="https://img.shields.io/badge/shell_script%20-%23121011.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 <href="https://t.me/mrblackx"><img alt="Ask Me" src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"></a>
 <a href="https://www.youtube.com/watch?v=Zc_zcqK9Cl0&feature=youtu.be"><img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/VmwtO3Yn2t4?label=YouTube%20Video%20%7C%20VIEWS&style=social"></a><br>
-< href="https://www.youtube.com/channel/UCWzhjHOUFTqi3bCxbNo4kqg"><img src="https://img.shields.io/badge/VIPERZCREW%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
-<img alt="Fixed Bugs" src="https://forthebadge.com/images/badges/fixed-bugs.svg">
 <img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.12.1-important">
 <img alt="Status" src="https://img.shields.io/badge/Cracking%20Status-Cracked-success">
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <a href="https://t.me//viperzcrew"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="ViperZCrew Channel"></a>
+<href="https://www.youtube.com/channel/UCWzhjHOUFTqi3bCxbNo4kqg"><img src="https://img.shields.io/badge/VIPERZCREW%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
+<img alt="Fixed Bugs" src="https://forthebadge.com/images/badges/fixed-bugs.svg">
+  
+  
 </p>
 
 <h1 align=center>Burpsuite Pro Installation</h1>
