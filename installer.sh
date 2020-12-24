@@ -7,6 +7,7 @@
 # __burpsuite__  : v2020.12.1
 # __changelog__  : Full Changelog Available
 # 
+# 1.9.6 | Removed set -e
 # 1.9.5 | Added Burpsuite Launcher
 # 1.9.4 | Edited ZSH Burpy Commands
 # 1.9.3 | Fixed Killing Part, Output 
@@ -31,8 +32,6 @@ c="\e[36m"
 w="\e[37m"
 bl="\e[1m"
 rs="\e[0m"
-
-set -e 
 
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
