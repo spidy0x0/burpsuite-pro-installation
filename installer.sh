@@ -7,8 +7,8 @@
 # __burpsuite__  : v2020.12.1
 # __changelog__  : Full Changelog Available
 # 
-# 1.9.6 | Removed set -e
-# 1.9.5 | Added Burpsuite Launcher
+# 1.9.6 | Removed set -e, Added .git Directory Check
+# 1.9.5 | Added Burpsuite Launcher 
 # 1.9.4 | Edited ZSH Burpy Commands
 # 1.9.3 | Fixed Killing Part, Output 
 # 1.9.2 | Fixed Display Errors
@@ -33,10 +33,14 @@ w="\e[37m"
 bl="\e[1m"
 rs="\e[0m"
 
+set -e 
+
 path=$(pwd)
 ueuid=$(cat /etc/passwd | grep "$USER" | cut -d":" -f3)
 display_=$(who | grep -o "(:.)" | tr -d "()")
 display=$(echo $DISPLAY)
+
+shopt -s globstar
 
 if [[ "${display}" != ":0" ]]; then export DISPLAY=${display_}; fi
 
@@ -51,6 +55,15 @@ run(){
 }
 
 update(){
+	if [ -d .git ]; then
+		echo -e "${g}[i] ${w}Found ${g}.git ${w}directory.${rs}"
+	else
+		echo -ne "${r}[!] ${w}Sorry i can't find ${g}.git ${w}directory, re-cloneing.${rs}"; run
+		echo -e "\n\n"
+		mv -v ${path}/installer.sh installer.sh.bak
+		git clone https://github.com/rebl0x3r/burpsuite-pro-installation.git; cp -R burpsuite-pro-installation/** ${path}
+		echo -e "${g}[+] ${w}Successfully cloned.${rs}"; run
+	fi
 	git config pull.rebase false
 	git stash &>/dev/null
 	up=$(git pull 2>/dev/null)
@@ -113,6 +126,15 @@ file_check(){
 	if [ "${i}" -eq 3 ]; then main; else echo -e "${bl}${b}[${r}✗${b}] ${w}Sorry, some files are missing and i can't continue!${rs}"; exit 1; fi
 }
 
+launcher(){
+	echo -e "\n${bl}${b}[${r}!${b}] ${w}Adding a launcher to your desktop, please wait."
+	cp -R burpsuite.desktop ~/Desktop
+	chmod 755 ~/Desktop/burpsuite.desktop burpy
+	path=$(pwd)
+	sed -i "s@path@${path}@g" burpy
+	sudo -R burpy /usr/bin/burpy
+}
+
 getinfo(){
 	l="."
 	packets=(openjdk-14-dbg openjdk-14-demo openjdk-14-doc openjdk-14-jdk openjdk-14-jdk-headless openjdk-14-jre openjdk-14-jre-zero openjdk-14-source)
@@ -141,15 +163,6 @@ check(){
 		xterm=$(which xterm)
 		if [[ "${xterm}" == "" ]]; then echo -e "${bl}${b}[${r}!${b}] ${g}xterm ${w}is not installed yet, let me install.${rs}${y}"; sudo apt install xterm -y; getinfo; elif [[ "${xterm}" == "/usr/bin/xterm" ]]; then echo -e "${bl}${b}[${g}*${b}] ${g}xterm ${w}found, continue${rs}";run; getinfo; fi
 	fi
-}
-
-launcher(){
-	echo -e "\n${bl}${b}[${r}!${b}] ${w}Adding a launcher to your desktop, please wait."
-	cp -R burpsuite.desktop ~/Desktop
-	chmod 755 ~/Desktop/burpsuite.desktop burpy
-	path=$(pwd)
-	sed -i "s@path@${path}@g" burpy
-	sudo -R burpy /usr/bin/burpy
 }
 
 check
