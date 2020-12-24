@@ -74,14 +74,14 @@
   
   $ exit # for quitting if you want back to the old shell session
 
-  $ curl -LO https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/installer.sh
+  $ git clone https://github.com/rebl0x3r/burpsuite-pro-installation.git
+  
+  $ cd burpsuite-pro-installation
 
   $ chmod +x installer.sh
   
   $ ./installer 
   ```
-  
-  Curl works for windows & linux and should be pre-installed.
     
   Make sure you are into the Burp Suite folder, otherwise you will get an error:
   ```
@@ -114,7 +114,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
 <h3>Windows</h3>
 
-  For window, we need openjdk aswell you can donwload it from here:<br>
+  For windows, we need openjdk aswell you can donwload it from here:<br>
   
   
   * [Java JDK (13.0.2)](https://www.filehorse.com/download-java-development-kit-64/46499/download/)
