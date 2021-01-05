@@ -1,20 +1,20 @@
 <p align=center>
 <img alt="Burpi" src="https://i.ibb.co/ySK3pHr/external-content-duckduckgo-com-removebg-preview.png"><br>
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rebl0x3r/burpsuite-pro-installation">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/spidyhackx/burpsuite-pro-installation">
 <img alt="Tool version" src="https://img.shields.io/badge/version-1.9-brightgreen">
 <img alt="Errors" src="https://img.shields.io/badge/errors fixed-21-red">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/rebl0x3r/burpsuite-pro-installation">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rebl0x3r/burpsuite-pro-installation?style=social">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/spidyhackx/burpsuite-pro-installation">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/spidyhackx/burpsuite-pro-installation?style=social">
 <img alt="Burpsuite" src="kali-burpsuite.ico" width=25 height=20>
 <img alt="Bash" src="https://badges.frapsoft.com/bash/v1/bash.png">
 <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
-<a href="https://t.me/mrblackx"><img alt="Ask Me" src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"></a>
+<a href="https://t.me/cicada007"><img alt="Ask Me" src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"></a>
 <a href="https://www.youtube.com/watch?v=Zc_zcqK9Cl0&feature=youtu.be"><img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/VmwtO3Yn2t4?label=YouTube%20Video%20%7C%20VIEWS&style=social"></a><br>
 <img alt="Version" src="https://img.shields.io/badge/BurpSuite%20Version-2020.12.1-important">
 <img alt="Status" src="https://img.shields.io/badge/Cracking%20Status-Cracked-success">
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
-<a href="https://t.me//viperzcrew"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="ViperZCrew Channel"></a>
+<a href="https://t.me//burpsuite"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="Burpy_chat Channel"></a>
 <a href="https://www.youtube.com/channel/UCWzhjHOUFTqi3bCxbNo4kqg"><img src="https://img.shields.io/badge/VIPERZCREW%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
 <img alt="Fixed Bugs" src="https://forthebadge.com/images/badges/fixed-bugs.svg">
 
@@ -74,7 +74,7 @@
   
   $ exit # for quitting if you want back to the old shell session
 
-  $ git clone https://github.com/rebl0x3r/burpsuite-pro-installation.git
+  $ git clone https://github.com/spidyhackx/burpsuite-pro-installation.git
   
   $ cd burpsuite-pro-installation
 
@@ -99,7 +99,7 @@
  _/ // / / (__  ) /_/ /_/ / / /  __/ /    
 /___/_/ /_/____/\__/\__,_/_/_/\___/_/     
                                           
-                                    @mrblackx
+                                    @mrblackx :)
 
 
 
@@ -276,7 +276,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 <h2>Bug Report</h2>
 
-  If you found any bug or issue, please go [here](https://github.com/rebl0x3r/burpsuite-pro-installation/issues)
+  If you found any bug or issue, please go [here](https://github.com/spidyhackx/burpsuite-pro-installation/issues)
   
   You can also request an update.
   
