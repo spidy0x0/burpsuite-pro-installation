@@ -79,12 +79,16 @@
 
   $ chmod +x installer.sh
   
-  $ ./installer 
+  $ download burp latest version zip https://t.me/burpsuite/181
+  
+  $ unzip,then copy [burploader-old.jar, BurpSuiteLoader_v2020.12.1.jar, burpsuite_pro_v2020.12.1.jar] 
+    into your current folder{burpsuite-pro-installation}
+  
+  $ sudo bash ./installer.sh
   ```
     
   Make sure you are into the Burp Suite folder, otherwise you will get an error:
   ```
-  $ ./installer.sh
   
     ____                  _____       _ __     
    / __ )__  ___________ / ___/__  __(_) /____ 
