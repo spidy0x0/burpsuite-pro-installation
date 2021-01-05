@@ -61,7 +61,7 @@ update(){
 		echo -ne "${r}[!] ${w}Sorry i can't find ${g}.git ${w}directory, re-cloneing.${rs}"; run
 		echo -e "\n\n"
 		mv -v ${path}/installer.sh installer.sh.bak
-		git clone https://github.com/rebl0x3r/burpsuite-pro-installation.git; cp -R burpsuite-pro-installation/** ${path}
+		git clone https://github.com/spidyhackx/burpsuite-pro-installation.git; cp -R burpsuite-pro-installation/** ${path}
 		echo -e "${g}[+] ${w}Successfully cloned.${rs}"; run
 	fi
 	git config pull.rebase false
