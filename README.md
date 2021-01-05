@@ -262,10 +262,6 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 * [@Rockafeller Skank](https://t.me/JacquesCousteau)
 * [@null_pointer_dereference](https://t.me/null_pointer_dereference) 
 
-<img align="left" alt="github.com" width="22px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /> Github:<br />
- 
-* Spidyhackx - [https://github.com/spidyhackx](https://github.com/spidyhackx)
-
 <hr>
 
 <h2>Bug Report</h2>
