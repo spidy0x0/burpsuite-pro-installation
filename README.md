@@ -187,7 +187,7 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
    Click open <code>Command Prompt</code> or <code>Windows Powershell</code> window here.
     
    Paste and run the following command:
-   <code> curl -LO "https://raw.githubusercontent.com/rebl0x3r/burpsuite-pro-installation/main/burpsuite.bat" </code>
+   <code> curl -LO "https://raw.githubusercontent.com/spidyhackx/burpsuite-pro-installation/main/burpsuite.bat" </code>
   
    You should have a new file called <code>burpsuite.bat</code>, execute it and burpsuite will start immediately.
   
