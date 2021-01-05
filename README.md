@@ -15,7 +15,6 @@
 <a href="https://t.me/burp_chat/"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg" alt="Support chat"></a>
 <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
 <a href="https://t.me//burpsuite"><img src="https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/follow.svg" alt="Burpy_chat Channel"></a>
-<a href="https://www.youtube.com/channel/UCWzhjHOUFTqi3bCxbNo4kqg"><img src="https://img.shields.io/badge/VIPERZCREW%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
 <img alt="Fixed Bugs" src="https://forthebadge.com/images/badges/fixed-bugs.svg">
 
   
@@ -250,9 +249,6 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
   
   | Channel | Link |
   | ------ | ------ |
-  | LeakerHounds | [https://t.me/LeakerHounds](https://t.me/LeakerHounds) | 
-  | ViperZCrew | [https://t.me/ViperZCrew](https://t.me/ViperZCrew) |
-  | DeepWaterLeaks | [https://t.me/deepwaterleaks2](https://t.me/deepwaterleaks2) |
   | BurpSuite Chat | [https://t.me/burp_chat/](https://t.me/burp_chat/)
 
 <hr>
@@ -263,13 +259,11 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 * [@mrblackx](https://t.me/mrblackx)
 * [@On1c0n3](https://t.me/On1c0n3)
 * [@cicada007](https://t.me/cicada007)
+* [@Rockafeller Skank](https://t.me/JacquesCousteau)
 * [@null_pointer_dereference](https://t.me/null_pointer_dereference) 
 
 <img align="left" alt="github.com" width="22px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /> Github:<br />
  
-* Rebl0x3r - [https://github.com/rebl0x3r](https://github.com/rebl0x3r)
-* 0n1cOn3 - [https://github.com/0n1cOn3](https://github.com/0n1cOn3)
-* Dejavu666 - [https://github.com/dejavu666](https://github.com/dejavu666)
 * Spidyhackx - [https://github.com/spidyhackx](https://github.com/spidyhackx)
 
 <hr>
