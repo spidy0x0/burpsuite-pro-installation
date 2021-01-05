@@ -257,7 +257,6 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
  <img align="left" alt="telegram.org" width="22px" src="https://images.vexels.com/media/users/3/137414/isolated/preview/3f7486417ddd88060a1818d44b6f3728-telegram-icon-logo-by-vexels.png" /> Telegram:<br />
  
 * [@mrblackx](https://t.me/mrblackx)
-* [@On1c0n3](https://t.me/On1c0n3)
 * [@cicada007](https://t.me/cicada007)
 * [@Rockafeller Skank](https://t.me/JacquesCousteau)
 * [@null_pointer_dereference](https://t.me/null_pointer_dereference) 
